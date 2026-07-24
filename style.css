@@ -334,18 +334,27 @@ a{
     bottom:0;
     padding:25px;
     background:linear-gradient(transparent,rgba(0,0,0,.85));
-    color:#fff;
-    text-align:left;
+    color:white;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .overlay h3{
     font-size:24px;
     margin-bottom:10px;
+    text-align:center;
+    width:100%;
 }
 
 .overlay p{
     font-size:15px;
     line-height:1.7;
+    text-align:center;
+    width:100%;
 }
 
 /* ==========================================
